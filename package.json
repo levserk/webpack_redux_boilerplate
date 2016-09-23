@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "dev": "webpack-dev-server --config ./webpack.config.dev.js"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "redux": "^3.6.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^1.16.1"
+  }
+}
